@@ -1,6 +1,7 @@
 # Steam Redesigned
 This is a Steam Ui redesigned made with HTML, CSS and JS following and inspired from [Juxtopposed's Steam UI redesign](https://youtu.be/cDY2p1CTkPo?si=IGzVKDVlMBenIRLR).
-![Embed](https://github.com/sorenblank/steam-redesigned/blob/main/embed.png?raw=true)
+
+![Embed](https://github.com/sorenblank/steam-redesigned/blob/main/public/misc/embed.png?raw=true)
  
 ## Contributing
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributiors who wants to make this website better can make contribution,which will be **greatly appreciated**.
