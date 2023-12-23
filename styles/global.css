@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+  }
+
+:root{
+    /* System greys */
+	--SystemLightestGrey: #DCDEDF;
+    --SystemLighterGrey: #B8BCBF;
+    --SystemLightGrey: #8B929A;
+    --SystemGrey: #67707B;
+    --SystemDarkGrey: #3D4450;
+    --SystemDarkerGrey: #23262E;
+    --SystemDarkestGrey: #0E141B;
+
+    /* Store blue greys */
+    --StoreLightestGrey: #CCD8E3;
+    --StoreLighterGrey: #A7BACC;
+    --StoreLightGrey: #7C8EA3;
+    --StoreGrey: #4e697d;
+    --StoreDarkGrey: #2A475E;
+    --StoreDarkerGrey: #1B2838;
+    --StoreDarkestGrey: #000F18;
+
+    /* Gradients */
+    --Gradient-StoreBackground: linear-gradient(180deg, var(--StoreDarkGrey) 0%, var(--StoreDarkerGrey) 80%);
+    --Gradient-LibraryBackground: radial-gradient(farthest-corner at 40px 40px,#3D4450 0%, #23262E 80%);
+
+    /* Colours */
+    --Color-Blue: #1A9FFF;
+    --Color-BlueHi: #00BBFF;
+    --Color-Green: #5ba32b;
+    --Color-GreenHi: #59BF40;
+    --Color-Orange: #E35E1C;
+    --Color-Red: #D94126;
+    --Color-RedHi: #EE563B;
+    --Color-DustyBlue: #417a9b;
+    --Color-LightBlue: #B3DFFF;
+    --Color-Yellow: #FFC82C;
+    --Color-ChalkyBlue: #66C0F4;
+
+    /* Main Colors */
+    --Text-Main: #F3FF3F3;
+    --Text-Dim: #76808C;
+    --Background-Main: #0E141B;
+    --Background-Highlight: #1E2329;
+    --Background-Hover: #313843;
+    --Background-Secondary: #14344B;
+    --Background-Tertiary: #212B45;
+    
+    --Color-Primary: #66C0F4;
+    --Color-Secondary: #4B619B;
+
+    --Accent-Primary: #A1CD44;
+    --Accent-Red: #CD5444;
+    --Accent-Yellow: #C1B15F
+
+    /* Backgrounds */
+    --Background-LightSofter: #6998bb24;
+    --Background-LightSoft: #3b5a7280;
+    --Background-LightMedium: #678BA670;
+    --Background-LightHard: #93B8D480;
+    --Background-LightHarder: #aacce6a6;
+    --Background-DarkSofter: #0e141b33;
+    --Background-DarkSoft: #0e141b66;
+    --Background-DarkMedium: #0e141b99;
+    --Background-DarkHard: #0e141bcc;
+    --Background-Neutral-LightSofter: rgba(235, 246, 255, 0.10);
+    --Background-Neutral-LightSoft: rgba(235, 246, 255, 0.20);
+    --Background-Neutral-LightMedium: rgba(235, 246, 255, 0.30);
+    --Background-Neutral-LightHard: rgba(235, 246, 255, 0.40);
+    --Background-Neutral-LightHarder: rgba(235, 246, 255, 0.50);
+}
+
+@font-face {
+    font-family: 'MotivaSans';
+    src:url('/public/fonts/MotivaSansRegular.ttf') format('ttf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'MotivaSans';
+    src:url('/public/fonts/MotivaSansBold.ttf') format('ttf');
+    font-weight: bold;
+}
+
+.HeadingLarge{
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.HeadingMedium{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.HeadingSmall{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.BodyLarge{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.BodyMedium{
+    font-size:14px;
+    font-weight: normal;
+}
+
+.BodySmall{
+    font-size:12px;
+    font-weight: normal;
+}
