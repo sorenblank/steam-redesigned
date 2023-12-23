@@ -118,3 +118,14 @@
     font-size:12px;
     font-weight: normal;
 }
+
+
+/* HTML STYLING STARTS FROM HERE */
+
+html {
+    height: 100%;
+  }
+
+body{
+    background: linear-gradient(180deg, #040011 13.77%, #202B3C 27.29%, #202B3C 27.29%);
+}
