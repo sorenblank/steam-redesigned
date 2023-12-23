@@ -73,42 +73,48 @@
 
 @font-face {
     font-family: 'MotivaSans';
-    src:url('/public/fonts/MotivaSansRegular.ttf') format('ttf');
+    src:url('/public/fonts/MotivaSansRegular.ttf');
     font-weight: normal;
 }
 
 @font-face {
     font-family: 'MotivaSans';
-    src:url('/public/fonts/MotivaSansBold.ttf') format('ttf');
+    src:url('/public/fonts/MotivaSansBold.ttf');
     font-weight: bold;
 }
 
 .HeadingLarge{
+    font-family:'MotivaSans', Arial, sans-serif;
     font-size: 26px;
     font-weight: bold;
 }
 
 .HeadingMedium{
+    font-family:'MotivaSans', Arial, sans-serif;
     font-size: 22px;
     font-weight: bold;
 }
 
 .HeadingSmall{
+    font-family:'MotivaSans', Arial, sans-serif;
     font-size: 18px;
     font-weight: bold;
 }
 
 .BodyLarge{
+    font-family:'MotivaSans', Arial, sans-serif;
     font-size: 16px;
     font-weight: normal;
 }
 
 .BodyMedium{
+    font-family:'MotivaSans', Arial, sans-serif;
     font-size:14px;
     font-weight: normal;
 }
 
 .BodySmall{
+    font-family:'MotivaSans', Arial, sans-serif;
     font-size:12px;
     font-weight: normal;
 }
