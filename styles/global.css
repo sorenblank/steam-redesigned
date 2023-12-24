@@ -309,11 +309,72 @@ body{
 .home-sections{
     align-items: center;
     min-width: 1200px;
+    max-width: 1200px;
     margin: 100px auto 0 auto;
 }
 
 .section-heading{
     color:var(--Text-Main, var(--Text-Main, #F3F3F3));
+    margin: 0px 0px 20px 0px;
 }
 
 
+.game-carousal{
+    display: flex;
+    gap:18px;
+    width: 100%;
+    padding: 20px 15px;
+    justify-content: space-between;
+    align-items: top;
+    border-radius: 5px;
+    background: var(--Background-Main, #0E141B);
+}
+
+.main-image{
+    min-width: 60%;
+}
+
+.main-image-element{
+    aspect-ratio: 35/21;
+    object-fit:cover;
+}
+
+.game-details{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+
+.game-info{
+    display: flex;
+    flex-direction: column;
+    min-width: 30%;
+    gap:10px;
+}
+
+.game-name{
+    color: var(--Text-Main, var(--Text-Main, #F3F3F3));
+}
+
+.game-description{
+    color: var(--Text-Main, var(--Text-Main, #F3F3F3));
+}
+
+.game-images{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:10px;
+}
+
+.game-images-child{
+    width: 100%;
+    border: none;
+    
+}
+
+.img-element{
+    object-fit: cover;
+    aspect-ratio: 2/1;
+    border-radius: var(--border-radius, 3px);
+}
